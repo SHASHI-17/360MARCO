@@ -1,5 +1,5 @@
 [build]
   command = "npm run build"
   ignore_warnings = true
-  environment = { POSTCSS_COLOR_ADJUST = "0" }
+  environment = { POSTCSS_COLOR_ADJUST = "1" }
 
