@@ -51,9 +51,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <button ><img src={navIcon1} alt="" /></button>
+                <p ><img src={navIcon1} alt="" /></p>
                 <a href="https://www.facebook.com/360marketingconcepts"><img src={navIcon2} alt="" /></a>
-                <button><img src={navIcon3} alt="" /></button>
+                <p><img src={navIcon3} alt="" /></p>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
