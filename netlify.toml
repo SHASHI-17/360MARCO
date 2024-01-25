@@ -1,4 +1,3 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:ci"
   publish = "./build"
-  environment = { POSTCSS_COLOR_ADJUST = "1" }
