@@ -2,5 +2,3 @@
   command = "npm run build"
   publish = "/opt/build/repo/build"
   environment = { POSTCSS_COLOR_ADJUST = "1" }
-
-
