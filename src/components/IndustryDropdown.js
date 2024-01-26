@@ -21,7 +21,7 @@ const IndustryDropdown = () => {
   return (
     <Dropdown className="custom-dropdown">
       <Dropdown.Toggle variant="primary" id="industry-dropdown">
-        Industry
+        <span className='dropdown'>Industry</span>
       </Dropdown.Toggle>
 
       <Dropdown.Menu>

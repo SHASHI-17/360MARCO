@@ -19,7 +19,7 @@ const ServiceDropdown = () => {
   return (
     <Dropdown className="custom-dropdown">
       <Dropdown.Toggle variant="primary" id="service-dropdown">
-        Service
+        <span className='dropdown'>Service</span>
       </Dropdown.Toggle>
 
       <Dropdown.Menu>

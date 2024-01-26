@@ -1,24 +1,24 @@
-/* IndustryDropdown.css */
-
 .custom-dropdown .btn {
     color: white;
     background-color: transparent;
-    border: none;
-    outline: none; /* Remove the default focus outline */
+    border: none; 
+    display: flex;
+    align-items: center; 
   }
-  .custom-dropdown .btn:focus{
+  
+  .custom-dropdown .btn:focus {
     background-color: transparent;
     border: transparent;
     outline: none;
     background: none;
-    background-color: none;
     box-shadow: none;
   }
   
   .custom-dropdown .dropdown-menu {
     background-color: black;
     margin-top: 0;
-    border: none; /* Remove the default border */
+    border: none;
+    /* Remove the default border */
   }
   
   .custom-dropdown .dropdown-item {
@@ -47,3 +47,11 @@
     }
   }
   
+  .dropdown{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #d5d4d4;
+  }
+  .dropdown:hover{
+    color: white;
+  }
