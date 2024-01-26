@@ -1,0 +1,49 @@
+/* IndustryDropdown.css */
+
+.custom-dropdown .btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none; /* Remove the default focus outline */
+  }
+  .custom-dropdown .btn:focus{
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    background: none;
+    background-color: none;
+    box-shadow: none;
+  }
+  
+  .custom-dropdown .dropdown-menu {
+    background-color: transparent;
+    margin-top: 0;
+    border: none; /* Remove the default border */
+  }
+  
+  .custom-dropdown .dropdown-item {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .custom-dropdown .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .custom-dropdown .btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .custom-dropdown .dropdown-menu {
+      padding: 8px;
+    }
+  
+    .custom-dropdown .dropdown-item {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  

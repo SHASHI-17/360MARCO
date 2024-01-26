@@ -102,8 +102,9 @@ nav.navbar {
   transition: 0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 0 0;
   background-color: #121212;
+  top: 0;
 }
 nav.navbar a.navbar-brand {
   width: 9%;
@@ -113,7 +114,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
+  font-size: 17px;
   opacity: 0.75;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -651,27 +652,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .heading {
   text-align: center;
-  font-size: 4rem;
-  letter-spacing: 0.5px;
+  font-size: 5rem;
+  letter-spacing: 1px;
 }
 
 .subHeading {
-  font-weight: 800;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .subtext {
   color: #b8b8b8;
   letter-spacing: 0.5px;
-  font-size: 14px;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .highlight {
-  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  font-weight: 300;
   color: white;
 }
 
 .last {
-  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .project-image {
