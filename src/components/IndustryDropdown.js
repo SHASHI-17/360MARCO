@@ -1,7 +1,6 @@
 // IndustryDropdown.js
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
-import { GearWideConnected } from 'react-bootstrap-icons';
 import './IndustryDropdown.css'; // Import the CSS file
 
 const IndustryDropdown = () => {
@@ -22,7 +21,6 @@ const IndustryDropdown = () => {
   return (
     <Dropdown className="custom-dropdown">
       <Dropdown.Toggle variant="primary" id="industry-dropdown">
-        <GearWideConnected size={24} />
         Industry
       </Dropdown.Toggle>
 
