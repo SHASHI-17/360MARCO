@@ -13,7 +13,8 @@
           "background-clip",
           "scroll-behavior",
           "-webkit-tap-highlight-color",
-          "text-decoration-skip-ink"
+          "text-decoration-skip-ink",
+          "margin-inline"
         ]
       }
     ],
