@@ -16,7 +16,7 @@
   }
   
   .custom-dropdown .dropdown-menu {
-    background-color: transparent;
+    background-color: black;
     margin-top: 0;
     border: none; /* Remove the default border */
   }
