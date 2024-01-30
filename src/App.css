@@ -101,6 +101,13 @@ nav.navbar {
   z-index: 9999;
   transition: 0.32s ease-in-out;
 }
+
+@media only screen and (max-width: 767px) {
+  nav.navbar {
+    background-color: #121212;
+  }
+}
+
 nav.navbar.scrolled {
   padding: 0 0;
   background-color: #121212;
@@ -658,15 +665,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .subHeading {
   letter-spacing: 0.5px;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 300;
+  margin-block: 2rem;
 }
+
+  .question{
+    font-size: 1.5rem;
+    margin-block: 1.5rem;
+  }
 
 .subtext {
   color: #b8b8b8;
   letter-spacing: 0.5px;
   font-size: 1rem;
   font-weight: 300;
+}
+
+.kk{
+  margin-bottom: 2.5rem;
 }
 
 .highlight {

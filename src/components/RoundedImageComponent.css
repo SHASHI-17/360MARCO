@@ -1,0 +1,87 @@
+/* RoundedImageComponent.css */
+
+.rounded-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .rounded-image-heading {
+    display: flex;
+    align-items: center;
+    font-size: 2.0rem;
+    margin: 40px 0; /* Updated margin for more space above and below */
+  }
+  
+  .rounded-image-heading::before,
+  .rounded-image-heading::after {
+    content: '';
+    flex: 1;
+    margin-inline: 1rem;
+    height: 1px;
+    background-color: #ccc; /* Adjust the color as needed */
+  }
+  
+  .rounded-image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Smaller padding */
+  }
+  
+  .rounded-image-section .rounded-image {
+    width: 100%;
+    height: 330px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%; /* Adjust the border-radius as needed for rounded corners */
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  
+  .rounded-image-section h3 {
+    font-size: 1.2rem; /* Smaller font size for headings */
+    margin-top: 2rem; /* Adjust margin as needed */
+  }
+  
+  /* Media query for screens with a maximum width of 767px (typical mobile screens) */
+  @media only screen and (max-width: 767px) {
+    .rounded-image-container {
+      flex-direction: column;
+    }
+  
+    .rounded-image-heading {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .rounded-image-heading::before,
+    .rounded-image-heading::after {
+      flex: 0;
+      width: 100%;
+      margin: 10px 0; /* Adjust the margin as needed */
+    }
+  
+    .rounded-image-section {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .rounded-image-section h3 {
+      font-size: 1.4rem; /* Increase font size for smaller screens if needed */
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 768px (larger screens) */
+  @media only screen and (min-width: 768px) {
+    .rounded-image-container {
+      flex-direction: row;
+    }
+  
+    .rounded-image-section {
+      flex: 1;
+    }
+  }
+  

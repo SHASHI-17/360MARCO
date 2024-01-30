@@ -1,0 +1,77 @@
+/* WhatWeOfferComponent.css */
+
+.offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .offer-heading {
+    display: flex;
+    align-items: center;
+    font-size: 2.0rem;
+    margin: 40px 0; /* Updated margin for more space above and below */
+  }
+  
+  .offer-heading::before,
+  .offer-heading::after {
+    content: '';
+    flex: 1;
+    margin-inline: 1rem;
+    height: 1px;
+    background-color: #ccc; /* Adjust the color as needed */
+  }
+  
+  .offer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Smaller padding */
+  }
+  
+  .offer-section h3 {
+    font-size: 1.2rem; /* Smaller font size for headings */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Media query for screens with a maximum width of 767px (typical mobile screens) */
+  @media only screen and (max-width: 767px) {
+    .offer-container {
+      flex-direction: column;
+    }
+  
+    .offer-heading {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .offer-heading::before,
+    .offer-heading::after {
+      flex: 0;
+      width: 100%;
+      margin: 10px 0; /* Adjust the margin as needed */
+    }
+  
+    .offer-section {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .offer-section h3 {
+      font-size: 1.4rem; /* Increase font size for smaller screens if needed */
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 768px (larger screens) */
+  @media only screen and (min-width: 768px) {
+    .offer-container {
+      flex-direction: row;
+    }
+  
+    .offer-section {
+      flex: 1;
+    }
+  }
+  

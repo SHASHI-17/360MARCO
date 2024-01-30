@@ -1,21 +1,14 @@
-import MailchimpSubscribe from "react-mailchimp-subscribe";
+import React from "react";
 import { Newsletter } from "./Newsletter";
 
 export const MailchimpForm = () => {
-  const postUrl = `${process.env.REACT_APP_MAILCHIMP_URL}?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+  const openMailToLink = () => {
+    window.location.href = `mailto:${'info@360marco.com'}`;
+  };
 
   return (
     <>
-      <MailchimpSubscribe
-        url={postUrl}
-        render={({ subscribe, status, message }) => (
-          <Newsletter
-            status={status}
-            message={message}
-            onValidated={formData => subscribe(formData)}
-            />
-        )}
-        />
+      <Newsletter onValidated={openMailToLink} />
     </>
-  )
-}
+  );
+};

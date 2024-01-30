@@ -1,0 +1,64 @@
+.custom-footer {
+    padding: 20px; /* Add padding as needed */
+    background-color: #333; /* Add background color as needed */
+  }
+  
+  .custom-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .custom-row {
+    display: flex;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .custom-col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .custom-col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-sm-end {
+    text-align: right;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  /* Add styles for custom class names */
+  .custom-social-icon {
+    /* Add styles for the social icon */
+  }
+  
+  .custom-contact-info {
+    /* Add styles for the contact info */
+  }
+  

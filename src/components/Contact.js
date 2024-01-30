@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Map from "./Map";
 // import { Link } from "react-router-dom";
 export const Contact = () => {
   const formInitialDetails = {
@@ -84,6 +85,7 @@ export const Contact = () => {
           </Col>
         </Row>
       </Container>
+      <Map/>
     </section>
   )
 }

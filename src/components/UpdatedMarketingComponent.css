@@ -1,0 +1,49 @@
+/* UpdatedMarketingComponent.css */
+
+.updated-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.updated-left-side {
+  flex: 1;
+}
+
+.updated-right-side {
+  flex: 1;
+}
+
+.hr {
+  display: inline-block;
+  height: 1px;
+  width: 12rem;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  margin-left: 10px; /* Adjust the margin as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Media query for screens with a maximum width of 767px (typical mobile screens) */
+@media only screen and (max-width: 767px) {
+  .updated-container {
+    flex-direction: column;
+  }
+
+  .updated-left-side,
+  .updated-right-side {
+    width: 100%;
+  }
+
+  .hr {
+    width: 100%;
+    margin: 10px 0; /* Adjust the margin as needed */
+  }
+}
+
+.updated-left-side p {
+  margin-bottom: 10px; /* Adjust the margin-bottom for paragraphs as needed */
+}
+.updated-left-side h1 {
+padding: 1rem;/* Adjust the margin-bottom for paragraphs as needed */
+}
