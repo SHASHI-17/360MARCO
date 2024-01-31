@@ -727,3 +727,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-left: 1rem;
   }
 }
+
+
+.logoImg{
+  display: flex;
+  align-items: center;
+  scale: 1.0;
+  transition: all 0.3s;
+}
+.iimg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  scale: 1.0;
+  transition: all 0.3s;
+}
+
+.logoImg:hover{
+  scale: 1.1;
+}
