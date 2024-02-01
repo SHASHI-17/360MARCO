@@ -665,20 +665,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .subHeading {
   letter-spacing: 0.5px;
-  font-size: 2rem;
-  font-weight: 300;
-  margin-block: 2rem;
+  font-size: 2.3rem;
+  font-weight: 200;
+  margin-block: 1.5rem;
+  /* margin-block: 0.5rem; */
 }
 
   .question{
-    font-size: 1.5rem;
-    margin-block: 1.5rem;
+    font-size: 2.5rem;
+    margin-block: 1rem;
+    text-align: left;
   }
 
 .subtext {
   color: #b8b8b8;
   letter-spacing: 0.5px;
-  font-size: 1.03rem;
+  font-size: 1.08rem;
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -686,14 +688,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .highlight {
   letter-spacing: 0.5px;
-  font-size: 1.03rem;
+  font-size: 1.08rem;
   font-weight: 300;
   color: white;
 }
 
 .last {
   letter-spacing: 0.5px;
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 300;
 }
 
@@ -746,3 +748,58 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .logoImg:hover{
   scale: 1.1;
 }
+
+.about-moto {
+  display: flex;
+}
+
+.inner {
+  flex: 1;
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.first-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-inner h1 {
+  font-size: 2em; 
+  margin-bottom: 1.5rem;
+}
+
+.first-inner p {
+  font-size: 1.2em; /* Adjust the font size as needed for larger screens */
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+
+.inner img {
+  width: 100%;
+  max-width: 470px; /* Set the maximum width to 500px */
+  height: auto; /* Maintain the aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  background-repeat: no-repeat; /* Ensure no repeat */
+}
+
+@media screen and (max-width: 768px) {
+  .about-moto {
+    flex-direction: column;
+  }
+
+  .inner {
+    width: 100%;
+  }
+
+  .first-inner h1 {
+    font-size: 1.5em; /* Adjust the font size as needed for smaller screens */
+  }
+
+  .first-inner p {
+    font-size: 1em; /* Adjust the font size as needed for smaller screens */
+  }
+}
+

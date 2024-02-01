@@ -3,7 +3,7 @@ import navIcon2 from '../assets/img/nav-icon2.svg';
 import IndustryDropdown from "./IndustryDropdown";
 import { useState, useEffect } from "react";
 import ServiceDropdown from "./ServiceDropdown";
-import logoImg from "../assets/360marco.png";
+// import logoImg from "../assets/360marco.png";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -32,7 +32,7 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand href="/" className="logoImg">
           <h1 style={{ color: "white", fontFamily: "revert-layer" }}>360Marco</h1>
-          <img src={logoImg} className="iimg" alt="logoImg" style={{ height: "50px", marginLeft: "10px" }} />
+          {/* <img src={logoImg} className="iimg" alt="logoImg" style={{ height: "50px", marginLeft: "10px" }} /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
